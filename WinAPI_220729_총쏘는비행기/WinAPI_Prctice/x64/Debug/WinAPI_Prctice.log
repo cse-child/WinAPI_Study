@@ -1,0 +1,20 @@
+﻿  Framework.cpp
+  Bullet.cpp
+H:\Users\VisualStudio2022\Project\WinAPI_220729_총쏘는비행기\WinAPI_Prctice\GameObject\Bullet.cpp(29,12): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  BulletManager.cpp
+H:\Users\VisualStudio2022\Project\WinAPI_220729_총쏘는비행기\WinAPI_Prctice\GameObject\BulletManager.cpp(25,46): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Circle.cpp
+H:\Users\VisualStudio2022\Project\WinAPI_220729_총쏘는비행기\WinAPI_Prctice\GameObject\Circle.cpp(24,15): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Users\VisualStudio2022\Project\WinAPI_220729_총쏘는비행기\WinAPI_Prctice\GameObject\Circle.cpp(26,18): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+  Plane.cpp
+  SpawnCircle.cpp
+  GameManager.cpp
+  PlaneScene.cpp
+  SpawnScene.cpp
+H:\Users\VisualStudio2022\Project\WinAPI_220729_총쏘는비행기\WinAPI_Prctice\Scenes\SpawnScene.cpp(65,53): warning C4267: '인수': 'size_t'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  TutorialScene.cpp
+H:\Users\VisualStudio2022\Project\WinAPI_220729_총쏘는비행기\WinAPI_Prctice\Scenes\TutorialScene.cpp(53,46): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GameMath.cpp
+  WinAPI_Prctice.cpp
+  코드를 생성하고 있습니다...
+  WinAPI_Prctice.vcxproj -> H:\Users\VisualStudio2022\Project\WinAPI_220729_총쏘는비행기\x64\Debug\WinAPI_Prctice.exe

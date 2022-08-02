@@ -1,0 +1,8 @@
+﻿  framework.cpp
+  PaintTool.cpp
+H:\Users\VisualStudio2022\Project\WinAPI_220727\WinAPI_220727\PaintTool.cpp(80,46): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Users\VisualStudio2022\Project\WinAPI_220727\WinAPI_220727\PaintTool.cpp(98,47): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Users\VisualStudio2022\Project\WinAPI_220727\WinAPI_220727\PaintTool.cpp(119,47): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  WinAPI_220727.cpp
+  코드를 생성하고 있습니다...
+  WinAPI_220727.vcxproj -> H:\Users\VisualStudio2022\Project\WinAPI_220727\x64\Debug\WinAPI_220727.exe

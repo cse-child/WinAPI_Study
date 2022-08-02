@@ -1,0 +1,9 @@
+﻿  Framework.cpp
+  Circle.cpp
+  GameManager.cpp
+  TutorialScene.cpp
+H:\Users\VisualStudio2022\Project\WinAPI_220727_랜덤원그리기\WinAPI_Prctice\Scenes\TutorialScene.cpp(48,46): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+H:\Users\VisualStudio2022\Project\WinAPI_220727_랜덤원그리기\WinAPI_Prctice\Scenes\TutorialScene.cpp(51,47): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  WinAPI_Prctice.cpp
+  코드를 생성하고 있습니다...
+  WinAPI_Prctice.vcxproj -> H:\Users\VisualStudio2022\Project\WinAPI_220727_랜덤원그리기\x64\Debug\WinAPI_Prctice.exe
