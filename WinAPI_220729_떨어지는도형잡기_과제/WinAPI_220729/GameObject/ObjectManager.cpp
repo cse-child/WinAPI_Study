@@ -122,6 +122,7 @@ void ObjectManager::RestartGame()
 		object->Fall(randomPos);
 		object->SetBrush(brushes[Random(0, brushes.size())]);
 		object->SetSpeed(Random(1, MAX_SPEED));
+		object->IsActive() = false;
 	}
 	GameManager::Get()->Play();
 }

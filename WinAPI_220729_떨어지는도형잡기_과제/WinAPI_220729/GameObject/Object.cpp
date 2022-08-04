@@ -2,7 +2,7 @@
 
 Object::Object()
 {
-	isActive = true;
+	isActive = false;
 	pos = { (int)CENTER_X, (int)CENTER_Y };
 }
 
