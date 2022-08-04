@@ -1,0 +1,15 @@
+﻿  Framework.cpp
+  Bullet.cpp
+  BulletManager.cpp
+  Circle.cpp
+  DropCircle.cpp
+  DropManager.cpp
+C:\Users\82108\Downloads\WinAPI_Prctice_220804수업\WinAPI_Prctice\GameObject\DropManager.cpp(54,53): warning C4267: '인수': 'size_t'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Plane.cpp
+  DropScene.cpp
+  GameManager.cpp
+  PlaneScene.cpp
+  GameMath.cpp
+  WinAPI_Prctice.cpp
+  코드를 생성하고 있습니다...
+  WinAPI_Prctice.vcxproj -> C:\Users\82108\Downloads\WinAPI_Prctice_220804수업\x64\Debug\WinAPI_Prctice.exe
