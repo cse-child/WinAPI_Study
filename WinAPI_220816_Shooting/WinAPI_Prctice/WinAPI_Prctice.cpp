@@ -7,7 +7,7 @@ Vector2 mousePos;
 
 HINSTANCE hInst;             
 HWND hWnd;
-WCHAR szTitle[MAX_LOADSTRING];                  
+WCHAR szTitle[MAX_LOADSTRING];
 WCHAR szWindowClass[MAX_LOADSTRING];            
 
 
