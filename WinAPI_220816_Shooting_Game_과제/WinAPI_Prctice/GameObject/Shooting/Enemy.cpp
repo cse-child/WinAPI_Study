@@ -35,10 +35,17 @@ void Enemy::Update()
 
 void Enemy::Init()
 {
-	isActive = true;
+	isActive = true; 
 
 	pos.x = WIN_WIDTH + Half().x;
 	pos.y = Random(Half().y, WIN_HEIGHT - Half().y);
+	hpBar->Init();
+}
+
+void Enemy::Dead()
+{
+	isActive = false;
+	hpBar->Active() = false;
 }
 
 void Enemy::Move()

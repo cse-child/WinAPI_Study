@@ -13,6 +13,8 @@ public:
 	void IncreaseHP(int hp) { curHp += hp; }
 	int GetHP() { return curHp; }
 
+	void Init();
+
 private:
 	HBRUSH backBrush;
 	HBRUSH frontBrush;

@@ -27,9 +27,16 @@ void HpBar::Render(HDC hdc)
 	//str = L"cur/max = " + to_wstring((curHp / maxHp));
 	//TextOut(hdc, 0, 100, str.c_str(), str.length());
 
+	if (!isActive) return;
+
 	SelectObject(hdc, backBrush);
 	Rectangle(hdc, Left(), Top(), Right(), Bottom());
 
 	SelectObject(hdc, frontBrush);
 	Rectangle(hdc, Left(), Top(), Left() + (((float)curHp / maxHp) * size.x), Bottom());
+}
+
+void HpBar::Init()
+{
+	curHp = maxHp;
 }

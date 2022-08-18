@@ -1,6 +1,7 @@
+d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\winapi_prctice\x64\debug\winapi_prctice.pch
 d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\winapi_prctice\x64\debug\vc143.pdb
 d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\winapi_prctice\x64\debug\vc143.idb
-d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\winapi_prctice\x64\debug\texture.obj
+d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\winapi_prctice\x64\debug\framework.obj
 d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\winapi_prctice\x64\debug\gamemath.obj
 d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\winapi_prctice\x64\debug\enemymanager.obj
 d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\winapi_prctice\x64\debug\enemy.obj
@@ -8,6 +9,7 @@ d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과�
 d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\winapi_prctice\x64\debug\dropcircle.obj
 d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\winapi_prctice\x64\debug\bulletmanager.obj
 d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\winapi_prctice\x64\debug\bullet.obj
+d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\winapi_prctice\x64\debug\hpbar.obj
 d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\winapi_prctice\x64\debug\plane.obj
 d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\winapi_prctice\x64\debug\pipemanager.obj
 d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\winapi_prctice\x64\debug\landscape.obj
@@ -27,9 +29,7 @@ d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과�
 d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\winapi_prctice\x64\debug\shootingscene.obj
 d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\winapi_prctice\x64\debug\flappybirdscene.obj
 d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\winapi_prctice\x64\debug\texturemanager.obj
-d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\winapi_prctice\x64\debug\hpbar.obj
-d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\winapi_prctice\x64\debug\winapi_prctice.pch
-d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\winapi_prctice\x64\debug\framework.obj
+d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\winapi_prctice\x64\debug\texture.obj
 d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\x64\debug\winapi_prctice.exe
 d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\winapi_prctice\x64\debug\winapi_prctice.ilk
 d:\users\dbswl\visualstudio2022\project\winapi\winapi_220816_shooting_game_과제\x64\debug\winapi_prctice.pdb

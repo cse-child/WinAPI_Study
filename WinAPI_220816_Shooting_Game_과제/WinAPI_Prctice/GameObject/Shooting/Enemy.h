@@ -9,6 +9,7 @@ public:
 	void Update();
 
 	void Init();
+	void Dead();
 
 	HpBar* GetHpBar() { return hpBar; }
 

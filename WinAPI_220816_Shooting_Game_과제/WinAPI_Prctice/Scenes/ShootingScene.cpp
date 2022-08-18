@@ -59,6 +59,7 @@ void ShootingScene::CollisionPlaneAndEnemy()
 		if (plane->IsCollision(enemy))
 		{
 			plane->GetHpBar()->DecreaseHP(10);
+			enemy->Dead();
 			break;
 		}
 	}
