@@ -17,7 +17,7 @@ StoolManager::~StoolManager()
 
 void StoolManager::Update()
 {
-	for (UINT i = 0; i < STOOL_NUM; i++)
+	for (int i = 0; i < STOOL_NUM; i++)
 	{
 		stools[i]->Pos().x -= speed * DELTA;
 
@@ -28,8 +28,9 @@ void StoolManager::Update()
 				stools[0]->Size() = texture->GetSize();
 				isStart = true;
 			}
-			//stools[i]->Pos().x += (stools[i]->Half().x + Random(MIN_STOOL_WIDTH, MAX_STOOL_WIDTH)) * (STOOL_NUM - 1);
-			stools[i]->Pos().x += WIN_WIDTH + Random(MIN_STOOL_WIDTH, MAX_STOOL_WIDTH) + texture->GetSize().x*0.5f;
+			int lastStoolIndex = (i - 1 < 0) ? stools.size() - 1 : i - 1;
+			stools[i]->Pos().x = stools[lastStoolIndex]->Right() + Random(MIN_STOOL_WIDTH, MAX_STOOL_WIDTH);
+			stools[i]->Pos().y = Random(MIN_STOOL_HEIGHT, MAX_STOOL_HEIGHT);
 		}
 	}
 }
@@ -64,10 +65,9 @@ void StoolManager::CreateStools()
 	for (UINT i = 1; i < STOOL_NUM; i++)
 	{
 		stools[i] = new ImageRect(texture);
-		stools[i]->Pos().x = WIN_WIDTH + Random(MIN_STOOL_WIDTH, MAX_STOOL_WIDTH) * i;
-		//stools[i]->Pos().y = Random(MIN_STOOL_HEIGHT, MAX_STOOL_HEIGHT);
-		stools[i]->Pos().y = STOOL_HEIGHT;
-		//stools[i]->Size() *= 0.8f;
+		stools[i]->Pos().x = stools[i - 1]->Right() + stools[i]->Size().x + Random(MIN_STOOL_WIDTH, MAX_STOOL_WIDTH);
+		//stools[i]->Pos().y = STOOL_HEIGHT;
+		stools[i]->Pos().y = Random(MIN_STOOL_HEIGHT, MAX_STOOL_HEIGHT);
 	}
 }
 

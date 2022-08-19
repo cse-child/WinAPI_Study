@@ -1,1 +1,4 @@
-﻿
+﻿  ZombieRunScene.cpp
+D:\Users\dbswl\VisualStudio2022\Project\WinAPI\WinAPI_220818_Running_Game_과제\WinAPI_2206\Scenes\ZombieRunScene.cpp(46,53): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Users\dbswl\VisualStudio2022\Project\WinAPI\WinAPI_220818_Running_Game_과제\WinAPI_2206\Scenes\ZombieRunScene.cpp(46,15): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  WinAPI_2206.vcxproj -> D:\Users\dbswl\VisualStudio2022\Project\WinAPI\WinAPI_220818_Running_Game_과제\x64\Debug\WinAPI_2206.exe

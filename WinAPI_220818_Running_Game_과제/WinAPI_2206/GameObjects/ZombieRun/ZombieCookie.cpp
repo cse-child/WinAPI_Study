@@ -43,6 +43,7 @@ void ZombieCookie::SetLanding()
 {
     jumpCount = 0;
     SetAction(RUN);
+    velocity.y = 0.0f;
 }
 
 void ZombieCookie::Jump()
@@ -66,8 +67,6 @@ void ZombieCookie::Jump()
         else // 내려가는중
             SetAction(JUMP_DOWN);
     }
-
-    
 }
 
 void ZombieCookie::EndRoll()

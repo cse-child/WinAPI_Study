@@ -27,7 +27,7 @@ void ZombieRunScene::Update()
 	CollisionCookieAndStool();
 	IsFallInToHole();
 
-	if (score >= 5000)
+	if (score >= 1000)
 	{
 		GameManager::Get()->Stop();
 		MessageBox(hWnd, L"목표점수(5000점)에 도달하셨습니다!\nGame Clear!", L"Game Clear", MB_OK);
