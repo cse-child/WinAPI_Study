@@ -10,6 +10,7 @@
 #include "Scenes/FlappyBirdScene.h"
 #include "Scenes/ShootingScene.h"
 #include "Scenes/RunningScene.h"
+#include "Scenes/SuperMarioScene.h"
 
 GameManager::GameManager()
 {
@@ -23,7 +24,8 @@ GameManager::GameManager()
     //scene = new BitmapScene();
     //scene = new FlappyBirdScene();
     //scene = new ShootingScene();
-    scene = new RunningScene();
+   // scene = new RunningScene();
+    scene = new SuperMarioScene();
 }
 
 GameManager::~GameManager()

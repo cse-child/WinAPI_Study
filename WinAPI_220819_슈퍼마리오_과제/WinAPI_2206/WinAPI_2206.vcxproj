@@ -139,6 +139,7 @@
     <ClInclude Include="GameObjects\Breakout\BrickManager.h" />
     <ClInclude Include="GameObjects\Breakout\ControlBar.h" />
     <ClInclude Include="GameObjects\Character\Cookie.h" />
+    <ClInclude Include="GameObjects\Character\Mario.h" />
     <ClInclude Include="GameObjects\Character\Siva.h" />
     <ClInclude Include="GameObjects\FlappyBird\Landscape.h" />
     <ClInclude Include="GameObjects\FlappyBird\PipeManager.h" />
@@ -152,6 +153,10 @@
     <ClInclude Include="GameObjects\Shooting\DropManager.h" />
     <ClInclude Include="GameObjects\Shooting\Enemy.h" />
     <ClInclude Include="GameObjects\Shooting\EnemyManager.h" />
+    <ClInclude Include="GameObjects\SuperMario\Block.h" />
+    <ClInclude Include="GameObjects\SuperMario\BlockManager.h" />
+    <ClInclude Include="GameObjects\SuperMario\MarioBackground.h" />
+    <ClInclude Include="GameObjects\SuperMario\MarioEnemy.h" />
     <ClInclude Include="GameObjects\UI\ProgressBar.h" />
     <ClInclude Include="Math\Vector2.h" />
     <ClInclude Include="Render\Animation.h" />
@@ -178,6 +183,7 @@
     <ClInclude Include="Scenes\FlappyBirdScene.h" />
     <ClInclude Include="Scenes\RunningScene.h" />
     <ClInclude Include="Scenes\ShootingScene.h" />
+    <ClInclude Include="Scenes\SuperMarioScene.h" />
     <ClInclude Include="System\GameManager.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Scenes\PlaneScene.h">
@@ -203,6 +209,7 @@
     <ClCompile Include="GameObjects\Breakout\BrickManager.cpp" />
     <ClCompile Include="GameObjects\Breakout\ControlBar.cpp" />
     <ClCompile Include="GameObjects\Character\Cookie.cpp" />
+    <ClCompile Include="GameObjects\Character\Mario.cpp" />
     <ClCompile Include="GameObjects\Character\Siva.cpp" />
     <ClCompile Include="GameObjects\FlappyBird\Landscape.cpp" />
     <ClCompile Include="GameObjects\FlappyBird\PipeManager.cpp" />
@@ -216,6 +223,10 @@
     <ClCompile Include="GameObjects\Shooting\DropManager.cpp" />
     <ClCompile Include="GameObjects\Shooting\Enemy.cpp" />
     <ClCompile Include="GameObjects\Shooting\EnemyManager.cpp" />
+    <ClCompile Include="GameObjects\SuperMario\Block.cpp" />
+    <ClCompile Include="GameObjects\SuperMario\BlockManager.cpp" />
+    <ClCompile Include="GameObjects\SuperMario\MarioBackground.cpp" />
+    <ClCompile Include="GameObjects\SuperMario\MarioEnemy.cpp" />
     <ClCompile Include="GameObjects\UI\ProgressBar.cpp" />
     <ClCompile Include="Render\Animation.cpp" />
     <ClCompile Include="Render\Texture.cpp" />
@@ -241,6 +252,7 @@
     <ClCompile Include="Scenes\FlappyBirdScene.cpp" />
     <ClCompile Include="Scenes\RunningScene.cpp" />
     <ClCompile Include="Scenes\ShootingScene.cpp" />
+    <ClCompile Include="Scenes\SuperMarioScene.cpp" />
     <ClCompile Include="System\GameManager.cpp" />
     <ClCompile Include="Scenes\PlaneScene.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>

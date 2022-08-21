@@ -83,8 +83,14 @@ using namespace GameMath;
 #include "GameObjects/Running/Land.h"
 #include "GameObjects/Running/LandManager.h"
 
+#include "GameObjects/SuperMario/MarioBackground.h"
+#include "GameObjects/SuperMario/MarioEnemy.h"
+#include "GameObjects/SuperMario/Block.h"
+#include "GameObjects/SuperMario/BlockManager.h"
+
 #include "GameObjects/Character/Siva.h"
 #include "GameObjects/Character/Cookie.h"
+#include "GameObjects/Character/Mario.h"
 
 //Scene Header;
 #include "Scenes/Scene.h"
